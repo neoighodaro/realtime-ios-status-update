@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C9CC14BB25729F7B89D6DD0 /* Pods_whazzzapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C944284A4DDF084F5D0A9A /* Pods_whazzzapp.framework */; };
 		B5CBC8731F52E0F500B233FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CBC8721F52E0F500B233FF /* AppDelegate.swift */; };
 		B5CBC8751F52E0F500B233FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CBC8741F52E0F500B233FF /* ViewController.swift */; };
 		B5CBC8781F52E0F500B233FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5CBC8761F52E0F500B233FF /* Main.storyboard */; };
 		B5CBC87A1F52E0F500B233FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5CBC8791F52E0F500B233FF /* Assets.xcassets */; };
 		B5CBC87D1F52E0F500B233FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5CBC87B1F52E0F500B233FF /* LaunchScreen.storyboard */; };
+		B5CBC8851F5317C800B233FF /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CBC8841F5317C800B233FF /* NavigationViewController.swift */; };
+		B5CBC8871F531EBE00B233FF /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CBC8861F531EBE00B233FF /* FriendsViewController.swift */; };
+		B5CBC8891F533B0500B233FF /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = B5CBC8881F533B0500B233FF /* avatar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42CF82A3A78796B632147EB1 /* Pods-whazzzapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whazzzapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-whazzzapp/Pods-whazzzapp.release.xcconfig"; sourceTree = "<group>"; };
+		5790F09DB2BDF80DA12C3585 /* Pods-whazzzapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whazzzapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-whazzzapp/Pods-whazzzapp.debug.xcconfig"; sourceTree = "<group>"; };
+		91C944284A4DDF084F5D0A9A /* Pods_whazzzapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whazzzapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5CBC86F1F52E0F500B233FF /* whazzzapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whazzzapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5CBC8721F52E0F500B233FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5CBC8741F52E0F500B233FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,9 @@
 		B5CBC8791F52E0F500B233FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5CBC87C1F52E0F500B233FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5CBC87E1F52E0F500B233FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5CBC8841F5317C800B233FF /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		B5CBC8861F531EBE00B233FF /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		B5CBC8881F533B0500B233FF /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C9CC14BB25729F7B89D6DD0 /* Pods_whazzzapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB1F13ECF80EE33735783CF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5790F09DB2BDF80DA12C3585 /* Pods-whazzzapp.debug.xcconfig */,
+				42CF82A3A78796B632147EB1 /* Pods-whazzzapp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF42814F1CFF0BFFFB3B4125 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91C944284A4DDF084F5D0A9A /* Pods_whazzzapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B5CBC8661F52E0F500B233FF = {
 			isa = PBXGroup;
 			children = (
 				B5CBC8711F52E0F500B233FF /* whazzzapp */,
 				B5CBC8701F52E0F500B233FF /* Products */,
+				AB1F13ECF80EE33735783CF0 /* Pods */,
+				AF42814F1CFF0BFFFB3B4125 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +87,12 @@
 				B5CBC8721F52E0F500B233FF /* AppDelegate.swift */,
 				B5CBC8741F52E0F500B233FF /* ViewController.swift */,
 				B5CBC8761F52E0F500B233FF /* Main.storyboard */,
+				B5CBC8861F531EBE00B233FF /* FriendsViewController.swift */,
 				B5CBC8791F52E0F500B233FF /* Assets.xcassets */,
 				B5CBC87B1F52E0F500B233FF /* LaunchScreen.storyboard */,
+				B5CBC8881F533B0500B233FF /* avatar.png */,
 				B5CBC87E1F52E0F500B233FF /* Info.plist */,
+				B5CBC8841F5317C800B233FF /* NavigationViewController.swift */,
 			);
 			path = whazzzapp;
 			sourceTree = "<group>";
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5CBC8811F52E0F500B233FF /* Build configuration list for PBXNativeTarget "whazzzapp" */;
 			buildPhases = (
+				94FB0D1345171EB2E9988C7A /* [CP] Check Pods Manifest.lock */,
 				B5CBC86B1F52E0F500B233FF /* Sources */,
 				B5CBC86C1F52E0F500B233FF /* Frameworks */,
 				B5CBC86D1F52E0F500B233FF /* Resources */,
+				5D56A78603597AEAE52EF0F9 /* [CP] Embed Pods Frameworks */,
+				ABB7DD17E37D11DF748E39D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5CBC8891F533B0500B233FF /* avatar.png in Resources */,
 				B5CBC87D1F52E0F500B233FF /* LaunchScreen.storyboard in Resources */,
 				B5CBC87A1F52E0F500B233FF /* Assets.xcassets in Resources */,
 				B5CBC8781F52E0F500B233FF /* Main.storyboard in Resources */,
@@ -132,11 +169,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D56A78603597AEAE52EF0F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-whazzzapp/Pods-whazzzapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94FB0D1345171EB2E9988C7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ABB7DD17E37D11DF748E39D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-whazzzapp/Pods-whazzzapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B5CBC86B1F52E0F500B233FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5CBC8871F531EBE00B233FF /* FriendsViewController.swift in Sources */,
+				B5CBC8851F5317C800B233FF /* NavigationViewController.swift in Sources */,
 				B5CBC8751F52E0F500B233FF /* ViewController.swift in Sources */,
 				B5CBC8731F52E0F500B233FF /* AppDelegate.swift in Sources */,
 			);
@@ -257,6 +344,7 @@
 		};
 		B5CBC8821F52E0F500B233FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5790F09DB2BDF80DA12C3585 /* Pods-whazzzapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FMQ6R58UAV;
@@ -270,6 +358,7 @@
 		};
 		B5CBC8831F52E0F500B233FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42CF82A3A78796B632147EB1 /* Pods-whazzzapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FMQ6R58UAV;
@@ -300,6 +389,7 @@
 				B5CBC8831F52E0F500B233FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

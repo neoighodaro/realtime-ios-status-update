@@ -1,0 +1,6 @@
+framework module Pods_whazzzapp {
+  umbrella header "Pods-whazzzapp-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+{
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "pusher": "^1.5.1"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.2.4"
+  }
+}
